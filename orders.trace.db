@@ -1,0 +1,4 @@
+10-03 14:22:56 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Tablela "ORDERS" nie istnieje
+Table "ORDERS" not found; SQL statement:
+INSERT INTO Orders(ClientId, Name) VALUES ('clientId', 'name') [42102-148]
