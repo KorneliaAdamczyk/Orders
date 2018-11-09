@@ -8,5 +8,5 @@ import java.sql.SQLException;
 public interface Data {
 
     void connectDatabase() throws SQLException, ClassNotFoundException, IllegalAccessException, InstantiationException;
-    void insertData (String text) throws SQLException, XPathExpressionException, ParserConfigurationException, IOException, SAXException;
+    void insertData (String text) throws SQLException, XPathExpressionException, ParserConfigurationException, IOException, SAXException, ClassNotFoundException;
 }

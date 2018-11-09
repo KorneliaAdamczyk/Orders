@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class XmlToDatabase implements Data{
+public class Xml implements Data{
 
     private Connection conn;
     
